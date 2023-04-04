@@ -1,0 +1,35 @@
+{
+  "name": "vue-loading-mb",
+  "type": "module",
+  "files": ["dist"],
+  "main": "./dist/vue-loading-mb.umd.cjs",
+  "module": "./dist/vue-loading-mb.js",
+  "exports": {
+    ".": {
+      "import": "./dist/vue-loading-mb.js",
+      "require": "./dist/vue-loading-mb.umd.cjs"
+    },
+    "./style.css": "./dist/style.css"
+  },
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "serve": "vite preview",
+    "build": "vite build",
+    "dev": "vite",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@mdi/font": "5.9.55",
+    "roboto-fontface": "*",
+    "vue": "^3.2.47",
+    "vuetify": "^3.0.0-beta.0",
+    "webfontloader": "^1.0.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.1.0",
+    "vite": "^4.2.0",
+    "vite-plugin-vuetify": "^1.0.0-alpha.12",
+    "vue-cli-plugin-vuetify": "~2.5.8"
+  }
+}
