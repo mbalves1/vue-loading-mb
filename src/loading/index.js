@@ -6,6 +6,7 @@ export function loading(app, options) {
     console.log(loading);
     return !loading;
   }
+  console.log(options);
   app.component("loading", defineAsyncComponent(() => import("./Loading.vue")))
 
 }
