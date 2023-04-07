@@ -12,7 +12,6 @@
     "./style.css": "./dist/style.css"
   },
   "version": "0.0.1",
-  "private": true,
   "scripts": {
     "serve": "vite preview",
     "build": "vite build",
